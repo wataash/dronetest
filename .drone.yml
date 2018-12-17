@@ -1,8 +1,5 @@
-kind: pipeline
-name: default
-
-steps:
-- name: test
-  image: alpine
-  commands:
-  - ls
+pipeline:
+  build:
+    image: alpine
+    commands:
+      - ls
